@@ -9,6 +9,7 @@ public class ArrayWrapper {
 		nElems = 0;
 	}
 	
+	// Linear search implementation
 	public boolean find(long searchKey) {
 		int j;
 		for(j=0;j<nElems;j++)
